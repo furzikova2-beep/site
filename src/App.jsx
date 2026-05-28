@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function RiseRiceSite() {
   const X_LINK = "https://x.com/grainofrice_sol";
+  const LOGO = "/rice-logo.png";
   const TARGET_GRAINS = 12500;
   const STARTING_TOTAL_GRAINS = 0;
   const [totalGrainsDropped, setTotalGrainsDropped] = useState(0);
@@ -65,8 +66,12 @@ export default function RiseRiceSite() {
     <main className="min-h-screen bg-[#fbf7ec] text-[#1f1b16]">
       <header className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5 md:px-8">
         <a href="#top" className="flex items-center gap-3">
-          <div className="grid h-9 w-9 place-items-center rounded-full border border-[#1f1b16] bg-[#fffaf0]">
-            <RiceMark />
+          <div className="grid h-9 w-9 place-items-center overflow-hidden rounded-full border border-[#1f1b16] bg-[#fffaf0]">
+            <img
+              src={LOGO}
+              alt="RISE logo"
+              className="h-full w-full object-cover"
+            />
           </div>
           <div className="leading-tight">
             <div className="text-sm font-black tracking-tight">RISE</div>
