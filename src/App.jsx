@@ -74,7 +74,7 @@ export default function RiseRiceSite() {
             />
           </div>
           <div className="leading-tight">
-            <div className="text-sm font-black tracking-tight">RISE</div>
+            <div className="text-sm font-black tracking-tight">RICE</div>
             <div className="text-xs text-[#756b5d]">just 1 grain of rice</div>
           </div>
         </a>
@@ -106,7 +106,7 @@ export default function RiseRiceSite() {
           </div>
 
           <h1 className="text-[72px] font-black leading-[0.86] tracking-[-0.08em] md:text-[130px]">
-            RISE
+            RICE
           </h1>
 
           <p className="mt-5 text-2xl font-medium tracking-[-0.03em] md:text-4xl">
@@ -114,7 +114,7 @@ export default function RiseRiceSite() {
           </p>
 
           <p className="mt-7 max-w-xl text-lg leading-8 text-[#4f473d]">
-            RISE is a memecoin about helping people who don’t have enough food. Click the button, drop one grain, fill the jar.
+            RICE is a memecoin about helping people who don’t have enough food. Click the button, drop one grain, fill the jar.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -249,7 +249,7 @@ export default function RiseRiceSite() {
         <div className="grid gap-4 md:grid-cols-3">
           <PlainCard number="01" title="Click" text="Every click drops one rice grain into the jar." />
           <PlainCard number="02" title="Fill" text="When the jar reaches 12,500 grains, it equals 250g of rice." />
-          <PlainCard number="03" title="Donate" text="RISE is aiming to donate to Rise Against Hunger." />
+          <PlainCard number="03" title="Donate" text="RICE is aiming to donate to Rice Against Hunger." />
         </div>
       </section>
 
@@ -294,7 +294,7 @@ export default function RiseRiceSite() {
             </div>
             <div className="text-base leading-8 text-[#4f473d]">
               <p>
-                This project is not officially partnered yet. The goal is to send donations to Rise Against Hunger and show proof when it happens.
+                This project is not officially partnered yet. The goal is to send donations to Rice Against Hunger and show proof when it happens.
               </p>
               <a
                 href="https://riseagainsthunger.org/"
@@ -302,7 +302,7 @@ export default function RiseRiceSite() {
                 rel="noreferrer"
                 className="mt-6 inline-flex rounded-full border border-[#1f1b16] bg-[#1f1b16] px-6 py-3 text-sm font-black uppercase tracking-[0.08em] text-white transition hover:-translate-y-0.5"
               >
-                riseagainsthunger.org
+                riceagainsthunger.org
               </a>
             </div>
           </div>
@@ -310,7 +310,7 @@ export default function RiseRiceSite() {
       </section>
 
       <footer className="mx-auto flex max-w-6xl flex-col gap-4 border-t border-[#d6c9b2] px-5 py-8 text-sm text-[#6b6257] md:flex-row md:items-center md:justify-between md:px-8">
-        <p>RISE — just 1 grain of rice</p>
+        <p>RICE — just 1 grain of rice</p>
         <div className="flex gap-4">
           <a href={X_LINK} target="_blank" rel="noreferrer" className="underline underline-offset-4">X</a>
           <a href="#pumpfun-link" className="underline underline-offset-4">Pump.fun</a>
